@@ -15,4 +15,5 @@ public class CategoryController : Controller
         IEnumerable<Category> obj = _db.Categories;
         return View(obj); 
     }
+    
 }
