@@ -15,5 +15,31 @@ public class CategoryController : Controller
         IEnumerable<Category> obj = _db.Categories;
         return View(obj); 
     }
+
+    //GET
+    public IActionResult Create()
+    {
+        return View();
+    }
+
+    //POST
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public IActionResult Create(Category obj)
+    {
+        if (obj.Name == obj.DisplayOrder.ToString())
+        {
+            ModelState.AddModelError("CustomError","Order name and Display order must not match");
+        }
+        if (ModelState.IsValid)
+        {
+            _db.Categories.Add(obj);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        return View(obj);
+        
+    }
     
 }
