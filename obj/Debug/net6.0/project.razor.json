@@ -16318,6 +16318,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\USER\\Desktop\\Web\\BulkyBook1\\Views\\Category\\Delete.cshtml",
+      "TargetPath": "Views\\Category\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\USER\\Desktop\\Web\\BulkyBook1\\Views\\Category\\Edit.cshtml",
+      "TargetPath": "Views\\Category\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\USER\\Desktop\\Web\\BulkyBook1\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -16340,6 +16350,11 @@
     {
       "FilePath": "c:\\Users\\USER\\Desktop\\Web\\BulkyBook1\\Views\\Category\\Create.cshtml",
       "TargetPath": "Views\\Category\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\USER\\Desktop\\Web\\BulkyBook1\\Views\\Shared\\_Notification.cshtml",
+      "TargetPath": "Views\\Shared\\_Notification.cshtml",
       "FileKind": "mvc"
     }
   ],
